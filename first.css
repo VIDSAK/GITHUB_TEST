@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/red-background.png");
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+.logo{
+    font-size: 50px;
+    color: white;
+    padding-left: 50px;
+    font-family: cursive;
+}
+
+.menu{
+    padding-right: 50px;
+    display: flex;
+}
+
+.menu a{
+    color: white;
+    padding: 10px 10px;
+    margin: 5px;
+    font: 20px;
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a:hover{
+    background:rgb(45, 52, 54);
+    transition: 1s;
+}
+
+.text{
+    margin-top: 150px;
+    margin-left: 50px;
+    max-width: 450px;
+    font-family: cursive;
+}
+
+.text h1{
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+.text p{
+    font-size: 20px;
+}
+
+#about{
+    padding: 100px 50px;    
+}
+
+.section-info{
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.section-info h1{
+    font-size: 30px;
+    color: tomato;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pic{
+    flex-basis: 50%;
+}
+
+.pic img{
+    width: 50%;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.description{
+    flex-basis: 50%;
+}
+
+.description p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.but{
+    background-color: tomato;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+#skills{
+    padding: 100px 50px;
+    background: url("../images/skills-background-2.png");
+    background-size: cover;
+}
+
+.skills-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url("../images/hands-in-blood-background.png");
+    background-size: cover;
+    background-position: right, center;
+    padding: 50px;
+}
+
+.braging{
+    flex-basis: 50%;
+}
+
+.braging p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.stats{
+    flex-basis: 50%;
+    font-weight: bold;
+    color: white;
+}
+
+progress{
+    width: 80%;
+}
+
+.graph{
+    width: 70%;
+    margin: auto;
+}
+
+.graph p{
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 80px;
+}
+
+#services{
+    padding: 100px 25px;
+}
+
+.services-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px, 2px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.services-box:hover{
+    background-color: rgb(45, 52, 54);
+    color: #fff;
+    transition: 1s;
+}
+
+.services-box img{
+    width: 60%;
+}
+
+#projects{
+    background: url("../images/blood-background.png");
+    background-size: cover;
+    padding: 100px 50px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 60px;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+th{
+    background-color: gray;
+}
+
+tr:hover{
+    background: black;
+    color: white;
+    transition: 0.4s;
+}
+
+#contact{
+    padding: 100px 0px;
+
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.reach form{
+    text-align: center;
+    padding: 20px;
+}
+
+.reach form input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 60%;
+}
+
+.reach form textarea{
+    width: 60%;
+    padding: 10px;
+}
